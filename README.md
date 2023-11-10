@@ -1,35 +1,24 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Trang Web Của Tôi</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            background-color: #fff;
-            padding: 20px;
-            box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-        }
-        h1, p {
-            text-align: center;
-        }
-        a {
-            color: #3498db;
-            text-decoration: none;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Xin chào, đây là trang web của tôi!</h1>
-        <p>Đây là một đoạn văn mô tả về trang web của tôi.</p>
-        <p>Bạn có thể tìm hiểu thêm về tôi <a href="#">tại đây</a>.</p>
-    </div>
-</body>
-</html>
+
+<div class="panel panel-default">
+   <div class="panel-heading">
+      <h3 class="panel-title">
+         <center>Hãy hỏi tôi bất cứ thứ gì bạn muốn</center>
+      </h3>
+   </div>
+   <div class="panel-body">
+      <div class="form-group">
+         <label for="question">Câu:</label>
+         <input type="text" class="form-control" id="questionInput" value=" ">
+      </div>
+      <div class="panel-footer">
+         <button type="button" class="btn btn-primary" id="sendButton">Send</button>
+      </div>
+   </div>
+</div>
+</div>
+</div>
+   <div class="form-group">
+      <label for="answer">Câu Trả Lời:</label>
+      <input type="text" class="form-control" id="answerInput">
+   </div>
+</div>
